@@ -1,6 +1,7 @@
 import random
+random.seed(42)
 # TODO: Import the virus class
-import virus 
+from virus import Virus 
 
 class Person(object):
     '''
@@ -8,7 +9,6 @@ class Person(object):
 
     _____Attributes______:
 
-    _id: Int.  A unique ID assigned to each person.
 
     is_vaccinated: Bool.  Determines whether the person object is vaccinated against
         the disease in the simulation.
@@ -61,4 +61,4 @@ class Person(object):
                 is_alive = False
             elif random_number > self.infection.mortality_rate:
                 is_vaccinated = True
-                self.infected = None
+                self.infection = None
