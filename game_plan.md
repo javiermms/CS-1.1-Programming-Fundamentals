@@ -6,7 +6,9 @@ Reproductive rate(4.4,3)
 # CLASSES
 Virus(smaller component)
 People(a little more complicated)
+-test file person
 Simulation (biggest component)
+-test file for simulation
 Logger(build last) 
 
 # RULES
