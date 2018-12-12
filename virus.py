@@ -15,10 +15,10 @@ def test_virus_instantiation():
     # assert virus.repro_rate == 0.8
     # assert virus.mortality_rate == 0.3
 
-    # virus = Virus("SpanishFlu", 0.3, 2.5)
-    # assert virus.name == "SpanishFlu"
-    # assert virus.repro_rate == 0.3
-    # assert virus.mortality_rate == 2.5
+    virus = Virus("SpanishFlu", 0.3, 2.5)
+    assert virus.name == "SpanishFlu"
+    assert virus.repro_rate == 0.3
+    assert virus.mortality_rate == 2.5
 
     virus = Virus("Lyme", 4.4,.2)
     assert virus.name =="Lyme"
