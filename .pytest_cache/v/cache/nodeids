@@ -1,1 +1,3 @@
-[]
+[
+  "logger_test.py::test_file_logger"
+]
